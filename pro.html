@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My PortFolio</title>
+    <link rel="stylesheet" href="pro.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script
+      src="https://kit.fontawesome.com/bdad2bd8d5.js"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="pro.js"></script>
+  </head>
+  <body>
+    <div
+      id="header"
+      data-aos="fade-up"
+      data-aos-offset="200"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-right"
+    >
+      <div data-aos="fade-right" class="container">
+        <nav>
+          <img data-aos="fade-left" src="/images/Ayman .png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="x fa-solid fa-x" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+          <p>Front-end Developer</p>
+          <h1>
+            Hi Iam <span>Ayman</span> <br />
+            from NoWhere.
+          </h1>
+        </div>
+      </div>
+    </div>
+    <!-------------------------------------------------------------------About-------------------------------------------------------------->
+    <div
+      id="about"
+      data-aos="fade-down-left"
+      data-aos-offset="200"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in"
+      data-aos-mirror="false"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-right"
+    >
+      <div class="container"></div>
+      <div class="row">
+        <div class="about-col-1">
+          <img
+            src="/images/4beb2a10-8002-43cd-b34c-03075d09038c.jpg
+          "
+            alt=""
+          />
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">about me</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima
+            pariatur cumque numquam sequi fugit placeat ducimus architecto
+            doloribus culpa earum unde, nisi perferendis aperiam omnis molestias
+            quibusdam, nesciunt recusandae fuga?
+          </p>
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills', event)">
+              skills
+            </p>
+            <p class="tab-links" onclick="opentab('experience', event)">
+              experience
+            </p>
+            <p class="tab-links" onclick="opentab('education', event)">
+              education
+            </p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <ul>
+              <li><span>UI/UX</span><br />desighner/ ridiculous</li>
+              <li><span>web devebvjel</span><br />daddesighner/ ridiaous</li>
+              <li><span>Ufafa</span><br />sigfaffafhner/ ridicfafaus</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experience">
+            <ul>
+              <li><span>UI/UX</span><br />desighner/ 70 years</li>
+              <li><span>web devebvjel</span><br />10 years/ ridiaous</li>
+              <li><span>Ufafa</span><br />Always/ ridicfafaus</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <ul>
+              <li><span>UI/UX</span><br />desighner/ ridiculous</li>
+              <li><span>Chemistry</span><br />Molicules/ ridiaous</li>
+              <li><span>things</span><br />Philosohpy/ ridiculous</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------------------------------------------------------------------Services---------------------------------------------------------------------------->
+    <div
+      id="services"
+      data-aos="fade-up"
+      data-aos="fade-down-right"
+      data-aos-offset="200"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-right"
+    >
+      <div class="container">
+        <h1 class="sub-title">My services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              eum placeat mollitia velit similique. Nemo, assumenda suscipit
+              facilis atque adipisci officia non aspernatur mollitia accusantium
+              vitae iure vero ipsam voluptate.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>UI design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              eum placeat mollitia velit similique. Nemo, assumenda suscipit
+              facilis atque adipisci officia non aspernatur mollitia accusantium
+              vitae iure vero ipsam voluptate.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-brands fa-app-store"></i>
+            <h2>App design</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+              eum placeat mollitia velit similique. Nemo, assumenda suscipit
+              facilis atque adipisci officia non aspernatur mollitia accusantium
+              vitae iure vero ipsam voluptate.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-----------------------------------------------------------------Portfolio------------------------------------------------------------->
+    <div
+      id="portfolio"
+      data-aos="fade-up-right"
+      data-aos-offset="200"
+      data-aos-delay="300"
+      data-aos-duration="1000"
+      data-aos-easing="ease-in"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-right"
+    >
+      <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work-1.png" alt="" />
+            <div class="layer">
+              <h3>Source Media App</h3>
+              <p class="p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                reprehenderit, corporis excepturi incidunt numquam optio eaque
+                explicabo
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.png" alt="" />
+            <div class="layer">
+              <h3>Music Media App</h3>
+              <p class="p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                reprehenderit, corporis excepturi incidunt numquam optio eaque
+                explicabo
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.png" alt="" />
+            <div class="layer">
+              <h3>ridiculousness App</h3>
+              <p class="p">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
+                reprehenderit, corporis excepturi incidunt numquam optio eaque
+                explicabo
+              </p>
+              <a href="#"><i class="fa-solid fa-link"></i></a>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+      </div>
+    </div>
+    <!-------------------------------------------------------------Contact----------------------------------------------------------------->
+    <div
+      id="contact"
+      data-aos="fade-down-right"
+      data-aos-offset="200"
+      data-aos-delay="100"
+      data-aos-duration="1000"
+      x
+      data-aos-easing="ease-in"
+      data-aos-mirror="true"
+      data-aos-once="false"
+      data-aos-anchor-placement="top-right"
+    >
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p class="p">
+              <i class="fa-regular fa-paper-plane"></i>abdulsamiayman@gamil.com
+            </p>
+            <p><i class="fa-solid fa-phone"></i>0776105048</p>
+            <div class="social-icons">
+              <a href="https://facebook.com"
+                ><i class="fa-brands fa-facebook-f"></i
+              ></a>
+              <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="/images/my-cv.pdf" download class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="name" placeholder="your Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="your Email"
+                required
+              />
+              <textarea
+                name="messege"
+                rows="16"
+                placeholder="your Messege"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        Copyright &#169; Ayman
+        <i class="fa-solid fa-heart-crack heart-crack"></i>.
+      </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script>
+      const scriptURL =
+        "https://script.google.com/macros/s/AKfycbzAoJtfp8iu2DTVGm5A5ZXh6BsUviinDr41hsxbWcuXe2j4DkvngeFdYVvo8PH2vPBB/exec";
+      const form = document.forms["submit-to-google-sheet"];
+
+      form.addEventListener("submit", (e) => {
+        e.preventDefault();
+        fetch(scriptURL, { method: "POST", body: new FormData(form) })
+          .then((response) => console.log("Success!", response))
+          .catch((error) => console.error("Error!", error.message));
+      });
+    </script>
+  </body>
+</html>
